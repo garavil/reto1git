@@ -1,3 +1,8 @@
+function suma (a,b,c){
+    resultado = a + b + c
+    console.log(resultado);
+}
+
 function resta (a,b){
     resultado = a - b
     console.log(resultado);
@@ -17,4 +22,4 @@ function cuadrado(a){
     console.log(resultado)
 }
 
-module.exports = {resta, mult, div, cuadrado}
+module.exports = {suma, resta, mult, div, cuadrado}
